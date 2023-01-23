@@ -1,0 +1,91 @@
+.container {
+  border: 10px solid purple;
+  background-color: plum;
+  opacity: 1;
+  width: 50%;
+  text-align: center;
+  font-family: "Carter One", cursive;
+  margin-top: 60px;
+}
+.heading .current-time {
+  display: initial;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 30px;
+  padding: auto;
+}
+.temperatureEmoji {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.temperature {
+  margin: 0;
+}
+
+.todaysUpdate {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.citySearch {
+  width: 200px;
+  margin-bottom: 50px;
+}
+.mb-3 {
+  width: fit-content;
+}
+.buttonStyle {
+  margin-top: 5px;
+}
+.today {
+  position: relative;
+  text-align: right;
+}
+
+.week ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 5px;
+}
+
+.day {
+  border: 0.5px solid rgb(36, 158, 20);
+  opacity: 0.8;
+  width: fit-content;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 30px;
+}
+.day:hover {
+  background-color: plum;
+  transition: all 150ms ease-in-out;
+}
+.daysWeather ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+.dayCondition {
+  font-size: 20px;
+  text-align: center;
+}
+.otherConditions {
+  padding-top: 20px;
+  padding-left: 0;
+}
+.conditionUpdate {
+  display: block;
+  margin-bottom: 5px;
+  padding-left: 0;
+  background-color: rgba(8, 174, 196, 0.418);
+  border: none;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+.conditionUpdate:hover {
+  background-color: #c212a4;
+}
